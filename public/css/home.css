@@ -1,0 +1,78 @@
+.myimg{
+  height: 100vh;
+  overflow-y: scroll;
+}
+.myimg::-webkit-scrollbar {
+    display: none;
+}
+.imagediv{
+padding-top: 2%;
+max-height: 300px!important;
+
+}
+.dele{
+  position: absolute;
+  bottom:
+  10px;
+  right: 25px;
+}
+.delcover{
+  position: absolute;
+  bottom:
+  10px;
+  right: 25px;
+}
+.jumbotron{
+  padding-top:5%!important;
+  margin-bottom: 0px!important;
+  padding-bottom: 0px!important;
+}
+#me{
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .row , .myimg , .why{
+    padding: 0 !important;
+  }
+  #me{
+    text-align: center;
+    padding-top: 20%!important;
+  }
+  .why{
+    width: 100%!important;
+    padding: 3%!important;
+  }
+  .patanahikese{
+    width: 90%!important;
+
+  }
+  .main{
+    height: auto!important;
+  }
+  .imagediv{
+    height: 250px;
+  }
+  .photo{
+    margin-top: 5%;
+    width: 100%!important;
+  }
+  .myimg{
+    height: auto;
+  }
+  .delecover{
+    position: absolute;
+    bottom:
+    10px;
+    right: 25%!important;
+  }
+  #mydi{
+    width: 100%;
+    padding: 0px!important
+  }
+  .kyube{
+    width: 100%!important;
+    margin: 0px!important;
+    padding: 4%;
+  }
+
+}

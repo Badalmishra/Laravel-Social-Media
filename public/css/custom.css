@@ -1,0 +1,61 @@
+.jumbotron{
+ padding-top: 3%!important;
+}
+.text{
+  text-align: left;
+}
+.photo{
+  display: inline-block;
+  text-align: left;
+  transition: all 0.5s;
+}
+.photo:hover{
+  box-shadow: 20px 20px 15px grey;
+}
+.d-block{
+  margin-top: 4%;
+  height: 60vh;
+}
+.myslide{
+  box-shadow: 0px 30px 15px grey;
+}
+.slidetext{
+  padding: 10%;
+  position: absolute;
+  text-align: right;
+  top:25%;
+  left: 60%;
+  color:white;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+.name{
+  color: black;
+}
+@media only screen and (max-width: 720px) {
+  .slidetext{
+    width: 100%;
+    text-align:left;
+    left: auto;
+    font-size: 150%;
+    top: auto;
+    bottom:10%;
+    right: 5%;
+  }
+  .d-block{
+    height: 50vh;
+  }
+  .myslide{
+    margin-top: 10vh!important;
+    box-shadow: none;
+  }
+}
+.lead a:hover{
+  text-decoration: none;
+}
+@media only screen and (min-width: 720px) {
+  .photo{
+    width: 50%;
+  }
+}
